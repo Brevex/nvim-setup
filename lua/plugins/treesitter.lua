@@ -1,4 +1,5 @@
-return {
+return 
+{
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
 
@@ -22,7 +23,8 @@ return {
 		"typescript",
 		"vue",
                 "vim", 
-                "vimdoc", 
+                "vimdoc",
+		"vhdl",
                 "query", 
                 "markdown", 
                 "markdown_inline" 
