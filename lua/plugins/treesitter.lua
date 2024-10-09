@@ -1,5 +1,4 @@
-return 
-{
+return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
 
@@ -8,23 +7,23 @@ return
             
             ensure_installed = { 
                 "c",
-		"cpp",
-		"cmake",
-		"css",
-		"dockerfile",
-		"go",
-		"html",
-		"java",
-		"javascript",
-		"kotlin",
+                "cpp",
+                "cmake",
+                "css",
+                "dockerfile",
+                "go",
+                "html",
+                "java",
+                "javascript",
+                "kotlin",
                 "lua",
-		"python",
-		"rust",
-		"typescript",
-		"vue",
+                "python",
+                "rust",
+                "typescript",
+                "vue",
                 "vim", 
                 "vimdoc",
-		"vhdl",
+                "vhdl",
                 "query", 
                 "markdown", 
                 "markdown_inline" 
@@ -33,14 +32,7 @@ return
             sync_install = false,
 
             auto_install = true,
-
-            highlight = {
-
-                enable = true,  
-
-                additional_vim_regex_highlighting = false,
-            },
-	}
-    end
+        }
+    end,
 }
 
