@@ -12,6 +12,10 @@ return {
 	opts = {
 		animation = true,
 		insert_at_start = true,
+
+		sidebar_filetypes = {
+			NvimTree = { text = "File Explorer", padding = 1 },
+		},
 	},
 
 	version = "^1.0.0",
