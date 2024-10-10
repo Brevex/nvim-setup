@@ -1,38 +1,36 @@
 return {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
+	"nvim-treesitter/nvim-treesitter",
+	build = ":TSUpdate",
 
-    config = function()
-        require('nvim-treesitter.configs').setup {
-            
-            ensure_installed = { 
-                "c",
-                "cpp",
-                "cmake",
-                "css",
-                "dockerfile",
-                "go",
-                "html",
-                "java",
-                "javascript",
-                "kotlin",
-                "lua",
-                "python",
-                "rust",
-                "typescript",
-                "vue",
-                "vim", 
-                "vimdoc",
-                "vhdl",
-                "query", 
-                "markdown", 
-                "markdown_inline" 
-            },
+	config = function()
+		require("nvim-treesitter.configs").setup({
 
-            sync_install = false,
+			ensure_installed = {
+				"c",
+				"cpp",
+				"cmake",
+				"css",
+				"dockerfile",
+				"go",
+				"html",
+				"java",
+				"javascript",
+				"kotlin",
+				"lua",
+				"python",
+				"rust",
+				"typescript",
+				"vue",
+				"vim",
+				"vimdoc",
+				"vhdl",
+				"query",
+				"markdown",
+				"markdown_inline",
+			},
 
-            auto_install = true,
-        }
-    end,
+			sync_install = false,
+			auto_install = true,
+		})
+	end,
 }
-

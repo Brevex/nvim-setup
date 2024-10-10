@@ -48,7 +48,6 @@ return {
 				"rustfmt",
 				"clang-format",
 				"google-java-format",
-				"gofumpt",
 				"ktfmt",
 				"sqlfluff",
 				"verible",

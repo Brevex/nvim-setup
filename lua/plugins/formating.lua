@@ -1,6 +1,5 @@
 return {
 	"stevearc/conform.nvim",
-
 	event = { "BufReadPre", "BufNewFile" },
 
 	config = function()
@@ -21,10 +20,10 @@ return {
 				cpp = { "clang-format" },
 				java = { "google-java-format" },
 				kotlin = { "ktfmt" },
-				go = { "gofumpt" },
 				vhdl = { "verible" },
 				sql = { "sqlfluff" },
 			},
+
 			format_on_save = {
 				lsp_fallback = true,
 				async = false,
